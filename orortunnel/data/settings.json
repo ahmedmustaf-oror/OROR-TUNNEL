@@ -1,0 +1,18 @@
+{
+  "app_name": "OROR TUNNEL",
+  "support_phone": "01021520331",
+  "telegram_channel": "https://t.me/orortunnel",
+  "website_url": "https://elias555.serv00.net/orortunnel/",
+  "support_email": "support@orortunnel.net",
+  "api_timeout_ms": 10000,
+  "auto_reconnect": true,
+  "max_reconnect_attempts": 5,
+  "maintenance_mode": false,
+  "maintenance_title": "OROR TUNNEL تحت الصيانة حاليًا",
+  "maintenance_message": "نقوم بترقية الخوادم وتحديث النظام لتقديم أفضل تجربة اتصال وسرعة فائقة. يرجى المحاولة لاحقًا.",
+  "allow_version_bypass": ["1.0.0"],
+  "primary_color": "#9D4EDD",
+  "secondary_color": "#00F5D4",
+  "dark_theme": true,
+  "default_language": "ar"
+}

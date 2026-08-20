@@ -1,0 +1,26 @@
+# OROR TUNNEL Security & Routing .htaccess
+
+# Disable Directory Listing
+Options -Indexes
+
+# Default Charset
+AddDefaultCharset UTF-8
+
+# Security Headers
+<IfModule mod_headers.c>
+    Header set X-Content-Type-Options "nosniff"
+    Header set X-Frame-Options "SAMEORIGIN"
+    Header set X-XSS-Protection "1; mode=block"
+    Header set Referrer-Policy "strict-origin-when-cross-origin"
+</IfModule>
+
+# Protect Sensitive Directories
+RewriteEngine On
+RewriteBase /orortunnel/
+
+# Deny direct browser access to data, config, logs, includes
+RewriteRule ^data/ - [F,L]
+RewriteRule ^config/ - [F,L]
+RewriteRule ^logs/ - [F,L]
+RewriteRule ^includes/ - [F,L]
+RewriteRule ^uploads/.*\.php$ - [F,L]

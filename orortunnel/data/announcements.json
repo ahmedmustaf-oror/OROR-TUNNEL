@@ -1,0 +1,20 @@
+[
+  {
+    "id": "anc_01",
+    "title": "🚀 أهلاً بكم في OROR TUNNEL v1.0",
+    "description": "تم إطلاق التطبيق الأسرع والأحدث لحماية الاتصال وتخطي الحجب بروتوكولات SSH, WireGuard, Hysteria2 و DNSTT.",
+    "image": "",
+    "link": "https://t.me/orortunnel",
+    "active": true,
+    "created_at": "2026-08-19 12:00:00"
+  },
+  {
+    "id": "anc_02",
+    "title": "🔥 سيرفرات مصر وألمانيا وأمريكا الجديدة متاحة الآن",
+    "description": "تمت إضافة خوادم عالية السرعة تناسب الألعاب والتصفح بدون تقطيع مع دعم تخصيص HTTP Headers.",
+    "image": "",
+    "link": "",
+    "active": true,
+    "created_at": "2026-08-19 12:00:00"
+  }
+]

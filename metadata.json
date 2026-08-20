@@ -1,0 +1,6 @@
+{
+  "name": "OROR TUNNEL",
+  "description": "تطبيق OROR TUNNEL vpn والأنفاق السريعة والآمنة - اتصال سريع ومحمي بخوادم بروتوكولات متقدمة",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

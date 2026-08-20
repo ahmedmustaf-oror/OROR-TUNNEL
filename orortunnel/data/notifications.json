@@ -1,0 +1,10 @@
+[
+  {
+    "id": "notif_01",
+    "title": "مرحبًا بك في OROR TUNNEL",
+    "message": "شكراً لاستخدامك تطبيق OROR TUNNEL. يمكنك استيراد السيرفرات وإجراء الاتصال بنقرة واحدة.",
+    "type": "INFO",
+    "priority": "NORMAL",
+    "created_at": "2026-08-19 12:00:00"
+  }
+]
